@@ -47,3 +47,4 @@ filelock~=3.4.0
 sentencepiece~=0.1.91
 fairseq~=0.10.2
 zipp~=3.6.0
+djangorestframework~=3.13.1
