@@ -95,3 +95,6 @@ class GenericAPIView(generics.GenericAPIView, mixins.ListModelMixin, mixins.Crea
             print('paragraph: {}'.format(prediction[2]))
             print()
             return Response(answerlist)
+
+
+# first branch
