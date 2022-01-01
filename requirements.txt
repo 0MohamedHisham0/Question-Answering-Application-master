@@ -14,7 +14,7 @@ wget~=3.2
 Markdown~=3.1.1
 tqdm~=4.32.2
 tika~=1.19
-torch~=1.2.0+cu92
+
 joblib~=0.13.2
 transformers~=4.14.1
 scikit-learn~=0.21.2
@@ -43,7 +43,6 @@ idna~=3.3
 pyparsing~=3.0.6
 tokenizers~=0.10.3
 sacremoses~=0.0.46
-torchvision~=0.4.0+cu92
 filelock~=3.4.0
 sentencepiece~=0.1.91
 fairseq~=0.10.2
