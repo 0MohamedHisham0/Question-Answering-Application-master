@@ -1,0 +1,1 @@
+web: gunicorn answerfinder.wsgi:application --log-file -
