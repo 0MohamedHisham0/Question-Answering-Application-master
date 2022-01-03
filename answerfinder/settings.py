@@ -61,11 +61,9 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
 }
 
-
-
 MIDDLEWARE = [
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -73,6 +71,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -150,15 +149,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 STATIC_URL = '/static/'
-PROJECT_ROOT = os.path.dirname(os.path.abspath(file))
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticroot')
 STATICFILES_DIRS = [
-    os.path.join(PROJECT_ROOT, 'static'),
+    os.path.join(BASE_DIR, 'static'),
 ]
-
-
-
 
 # TEST 1
 # STATICFILES_DIRS = [
