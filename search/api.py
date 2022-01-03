@@ -70,7 +70,7 @@ class GenericAPIView(generics.GenericAPIView, mixins.ListModelMixin, mixins.Crea
             print(question)
 
             # change path to pdfs folder
-            df = pdf_converter(directory_path='./pdf')
+            df = pdf_converter(directory_path='./media')
             # print("after data frame", df)
             cdqa_pipeline = QAPipeline(reader='models/distilbert_qa.joblib', max_df=1.0)
             print("first pipeline")
