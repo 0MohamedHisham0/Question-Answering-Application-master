@@ -162,6 +162,6 @@ def all_files(request):
 ##loayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 
 
-### fathyyyyyyyyyyyyyyyyyyy
+
 
 ####heroku config:set DISABLE_COLLECTSTATIC=1 --app blooming-tundra-42977
