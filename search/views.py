@@ -52,7 +52,7 @@ def search_view(request):
         #for idx, url in enumerate(search(question, tld="com", num=10, stop=None, pause=2)):
         #    crawl_result(url, idx)
         # change path to pdfs folder
-        df = pdf_converter(directory_path='./pdf')
+        df = pdf_converter(directory_path='./media')
         # print("after data frame", df)
         cdqa_pipeline = QAPipeline(reader='models/distilbert_qa.joblib', max_df=1.0)
         print("first pipeline")
