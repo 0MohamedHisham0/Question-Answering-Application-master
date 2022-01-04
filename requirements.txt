@@ -12,14 +12,14 @@ soupsieve~=2.3.1
 Pillow~=8.4.0
 pip~=21.3.1
 wheel~=0.37.0
-numpy~=1.21.5
+numpy~=1.19.5
 wget~=3.2
 Markdown~=3.1.1
 tqdm~=4.32.2
 tika~=1.19
 
 joblib~=0.13.2
-transformers~=4.14.1
+transformers~=2.1.1
 scikit-learn~=0.21.2
 prettytable~=0.7.2
 scipy~=1.7.3
