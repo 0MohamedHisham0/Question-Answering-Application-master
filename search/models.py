@@ -5,7 +5,7 @@ from django.db import models
 
 class Upload(models.Model):
     title = models.CharField(max_length=500)
-    file = models.FileField()
+    file = models.FileField(max_length=500)
     # def save(self, *args, **kwargs):
     #     print(self.file)
     #     print(dir(self.file))
