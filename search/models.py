@@ -4,8 +4,8 @@ from django.db import models
 # Create your models here.
 
 class Upload(models.Model):
-    title = models.CharField(max_length=500)
-    file = models.FileField(max_length=500)
+    title = models.CharField(max_length=100)
+    file = models.FileField()
     # def save(self, *args, **kwargs):
     #     print(self.file)
     #     print(dir(self.file))
